@@ -10,7 +10,11 @@ body,html {
 .main {
     display: flex;
     flex-direction: column;
+    align-content: space-between;
+    min-height: 100vh;
+    min-width: 100vw;
 }
+
 .header {
     display: flex;
     align-items: center;
@@ -32,4 +36,117 @@ body,html {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.left h {
+    font-size: 48px;
+    font-weight: 1000;
+    font-family: 'Roboto', sans-serif;
+    color: #F9FAF8;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 400px;
+    height: auto;
+}
+
+.left p {
+    size: 18px;
+    color: #e5e7eb;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+.section-2 img {
+    border: 4px solid royalblue;
+    border-radius: 8px;
+    
+}
+
+.section-2 p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+}
+
+.container {
+    height: min-content;
+    width: min-content;
+}
+
+.header2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.section-3 {
+    background-color: #e5e7eb;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.qoute{
+    margin-top: 50;
+    margin: 0 auto;
+    height: 300px;
+    width: 600px;
+    text-align: center;
+}
+
+.qoute p {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+.thor {
+ font-weight: bold;
+ text-align: end;
+ margin-right: 25%;
+ margin-top: -100px;
+ font-size: 20px;
+ margin-bottom: 0px;
+}
+
+.thor p {
+    margin-bottom: 0px;
 }
